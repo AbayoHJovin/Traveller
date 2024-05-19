@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>traveller</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="cym.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./travel.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Traveller</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i>Menu</i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#asia">Asia</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Europe">Europe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#America">America</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#africa">Africa</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section
+      id="home"
+      class="d-flex align-items-center"
+      style="
+        min-height: 100vh;
+        background-image: linear-gradient(
+            rgba(35, 71, 103, 0.5),
+            rgba(35, 71, 103, 0.5)
+          ),
+          url('./assets/img1.png');
+        background-size: cover;
+      "
+    >
+      <header class="container text-center">
+        <div class="d-flex flex-column align-items-center">
+          <div class="mb-4">
+            <h1 class="display-4 text-white font-weight-semi-bold">Enjoy</h1>
+            <p class="lead text-white">
+              Feel the serenity wash over you as you wander through enchanting
+              forests and discover hidden oases of blissful solitude. Let the
+              whispering breeze guide you to radiant vistas, where serendipitous
+              encounters await around every corner.
+            </p>
+            <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+          </div>
+          <div class="w-100">
+            <img src="./assets/plane.png" alt="Plane" class="img-fluid" />
+          </div>
+        </div>
+      </header>
+    </section>
+    <section class="journey__container bg-gray-500" id="asia">
+      <div class="container">
+        <h2 class="section__title text-center">Asia</h2>
+        <p class="section__subtitle text-center">
+          The most amazing places in Asia
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/china.jpg"
+                alt="Beijing, China"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Beijing, China</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/israel.jpg"
+                alt="Jerusalem, Israel"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Jerusalem, Israel</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/tokyo.jpg"
+                alt="Tokyo, Japan"
+                class="img-fluid rounded"
+                style="height: 14.8rem"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Tokyo, Japan</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/doha.jpg"
+                alt="Doha, Qatar"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Doha, Qatar</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/singapore.jpg"
+                alt="Singapore, Singapore"
+                class="img-fluid rounded"
+                style="height: 11.8rem; width: 30rem"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-black"></i>
+                <span>Singapore, Singapore</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/india.jpg"
+                alt="New Delhi, India"
+                class="img-fluid rounded"
+                style="height: 12rem"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill"></i>
+                <span>New Delhi, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey__container bg-light" id="Europe">
+      <div class="container">
+        <h2 class="section__title text-center">Europe</h2>
+        <p class="section__subtitle text-center">
+          The most amazing places in Europe
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/man.jpg"
+                alt="London, UK"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>London, UK</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/paris.jpg"
+                alt="Paris, France"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Paris, France</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/poland.jpg"
+                alt="Warsaw, Poland"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Warsaw, Poland</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/spain.jpg"
+                alt="Madrid, Spain"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Madrid, Spain</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/germany.jpg"
+                alt="Berlin, Germany"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-black"></i>
+                <span>Berlin, Germany</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/croatia.jpg"
+                alt="Zagreb, Croatia"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill"></i>
+                <span>Zagreb, Croatia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="journey__container bg-light" id="America">
+      <div class="container">
+        <h2 class="section__title text-center">America</h2>
+        <p class="section__subtitle text-center">
+          The most amazing places in America
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/newYork.jpg"
+                alt="London, UK"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>New York,USA</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/brazil.jpg"
+                alt="Paris, France"
+                class="img-fluid rounded"
+                style="height: 14.8rem"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Brazilia,Brazil</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/canada"
+                alt="Warsaw, Poland"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Ottawa,Canada</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/argentina"
+                alt="Madrid, Spain"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Buenos Aires,Argentina</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/mexico.jpg"
+                alt="Berlin, Germany"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-black"></i>
+                <span>Mexico City,Mexico</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/peru.jpg"
+                alt="Zagreb, Croatia"
+                class="img-fluid rounded"
+                style="height: 14.8rem"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill"></i>
+                <span>Lima, Peru</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="journey__container bg-light" id="africa">
+      <div class="container">
+        <h2 class="section__title text-center">Africa</h2>
+        <p class="section__subtitle text-center">
+          The most amazing places in Africa
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/kg.jpg"
+                alt="London, UK"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Kigali, Rwanda</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/south africa.jpg"
+                alt="Paris, France"
+                class="img-fluid rounded"
+                style="height: 14.8rem"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Pretoria, South Africa</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/egypt.jpg"
+                alt="Warsaw, Poland"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Cairo, Egypt</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/Nigeria.webp"
+                alt="Madrid, Spain"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-light"></i>
+                <span>Abuja, Nigeria</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/kenya.jpg"
+                alt="Berlin, Germany"
+                class="img-fluid rounded"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill text-black"></i>
+                <span>Nairobi, Kenya</span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="country__card">
+              <img
+                src="assets/cameroon.jpg"
+                alt="Zagreb, Croatia"
+                class="img-fluid rounded"
+                style="height: 14.8rem"
+              />
+              <div class="country__name mt-2 text-center">
+                <i class="ri-map-pin-2-fill"></i>
+                <span>Yaoundé, Cameroon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="banner__container py-5 mt-4"
+      style="
+        background-image: linear-gradient(
+            rgba(35, 71, 103, 0.5),
+            rgba(35, 71, 103, 0.5)
+          ),
+          url('assets/beach.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 150px;
+        padding-bottom: 150px;
+      "
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8 text-center text-white">
+            <h1>We can't disappoint you</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+              optio perspiciatis reiciendis id non explicabo quae. Eveniet esse
+              molestiae tempora.
+            </p>
+            <a href="#" class="btn btn-primary"> Read More </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 mt-4">
+      <div class="container text-center">
+        <h4>traveller.dev</h4>
+        <div class="social__icons">
+          <a href="https://www.facebook.com/" target="_blank">
+            <span><i class="ri-facebook-fill"></i></span>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <span><i class="ri-twitter-fill"></i></span>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <span><i class="ri-instagram-line"></i></span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jovin-abayo-hirwa-1b8a872a7"
+            target="_blank"
+          >
+            <span><i class="ri-linkedin-fill"></i></span>
+          </a>
+        </div>
+        <p class="mb-0">
+          Founded by A.H.Jovin in 1934 to make you enjoy travelling
+        </p>
+        <p>&copy; 1934-2024 JOVIN/RWANDA</p>
+      </div>
+    </footer>
+  </body>
+</html>
